@@ -9,7 +9,6 @@ namespace ACBSChatbotConnector.Services
     public interface ICMS_UserService
     {
         Task<CMS_User> CheckUsernameExists(CMS_CheckUsernameExistDTO dto);
-        Task<CMS_User> CreateUser(CMS_CreateUserDTO req);
         Task DeleteUser(int id);
         Task<PagingResponse<IEnumerable<CMS_GetUserDTO>>> GetAll(CMS_GetUserDTO req, int pageIndex, int pageSize);
         Task<CMS_GetUserByIdDTO> GetUserById(int id);

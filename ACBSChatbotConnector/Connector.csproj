@@ -26,8 +26,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="ExprotExcelClient\" />
     <Folder Include="Logs\" />
-    <Folder Include="ExprotExcelTicket\" />
     <Folder Include="Logs_Zalo\" />
     <Folder Include="Logs_Zalo\" />
     <Folder Include="Uploads\" />
